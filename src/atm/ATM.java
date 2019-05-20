@@ -1,3 +1,4 @@
+package atm;
 
 //represents an automated teller machine
 public class ATM {
