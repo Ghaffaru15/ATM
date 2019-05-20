@@ -22,4 +22,4 @@ public class Screen
 	}//end method displayDollarAmount
 	
 	
-}
+} //end class Screen
