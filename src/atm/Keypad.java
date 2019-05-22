@@ -3,12 +3,12 @@ package atm;
 import java.util.Scanner;
 
 //represents the keypad of the atm
-public class Keyboard 
+public class Keypad 
 {
 	private Scanner input;	//program uses scanner to obtain input
 	
 	//default Constructor
-	public Keyboard()
+	public Keypad()
 	{
 		input = new Scanner( System.in );
 	}//end default constructor
