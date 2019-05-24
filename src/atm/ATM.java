@@ -9,7 +9,7 @@ public class ATM {
 	private Keypad keypad;	//ATM's keypad
 	private CashDispenser cashDispenser; //ATM's cash Dispenser
 	private DepositSlot depositSlot; 	//ATM's deposit slot
-	private BankDatabase bankdatabase; //account information database
+	private BankDatabase bankDatabase; //account information database
 	
 	//constants corresponding to the main menu options
 	private static final int BALANCE_ENQUIRY = 1;
@@ -25,8 +25,8 @@ public class ATM {
 		screen = new Screen(); //create screen
 		keypad = new Keypad(); //create keypad
 		cashDispenser = new CashDispenser(); //create cash dispenser
-		depositSLot = new DepositSlot(); //create deposit slot
-		bankdatabase = new BankDatabase(); //create account info database
+		depositSlot = new DepositSlot(); //create deposit slot
+		bankDatabase = new BankDatabase(); //create account info database
 	}//end default constructor
 	
 	//Start ATM
